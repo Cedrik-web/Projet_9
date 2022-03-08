@@ -1,0 +1,247 @@
+@font-face {
+    font-family: "craie";
+    src: url("font/tafelschrift.regular.ttf");
+}
+
+body {
+    font-family: ;
+    background-image: url("images/feuille_autonne.jpg");
+    background-position: center;
+    font-family: "craie";
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    padding-top: 10px;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.titre {
+    font-size: 2em;
+}
+
+#logo {
+    width: 85px;
+    padding-top: 5px;
+    margin-left: -4px;
+}
+
+.logo {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 37%;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 35px;
+}
+
+main {
+    border-top: 3px white solid;
+    min-height: 40em;
+}
+
+footer {
+    position: fixed;
+}
+
+.cadre {
+    background-image: url("images/wallpaperbetter.jpg");
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 15px 20px 5px rgba(8, 8, 8, 0.795);
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.page {
+    background-image: url("images/empty-blackboard.jpg");
+    width: 90%;
+    margin-left: 5%;
+}
+
+/*------structure nav--------------*/
+
+.menu {
+    list-style-type: none;
+    text-decoration: none;
+    position: absolute;
+    margin-top: -2%;
+    margin-left: 44%;
+}
+
+.categorie {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*------structure main -------------*/ 
+
+.gauche {
+    float: left;
+    width: 50%;
+    margin-top: 15em;
+}
+
+.droite {
+    float: right;
+    width: 50%;
+    margin-top: 10em;
+}
+
+button {
+    width: 30%;
+    height: 50px;
+    border-radius: 20px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.margButton {
+    margin-top: 5%;
+}
+
+.ecart {
+    margin-right: 5%;
+}
+
+.ecartDroite {
+    margin-left: 60%;
+}
+
+.ecartAbonnement {
+    margin-left: 50%;
+}
+
+.abonnement {
+    width: 15%;
+}
+
+.encadrement {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    border: 2px white solid;
+}
+
+.rond {
+    display: inline-block;
+    border: 2px white solid;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 5%;
+    margin-bottom: -3px;
+    width: 15px;
+    height: 15px;
+}
+
+.textRond {
+    display: inline;   
+}
+
+.divNote {
+    text-align: left;
+    margin-left: 70px;
+}
+
+.special {
+    width: 50%;
+    margin-right: 0;
+    margin-left: 20%;
+}
+
+.special1 {
+    margin-top: 50px;
+}
+
+.special2 {
+    width: 25%;
+    margin-top: 15px;
+    margin-left: 0;
+}
+
+.special2-1 {
+    width: 60%;
+    margin-left: -110px;
+}
+
+.special3 {
+    margin-top: 170px;
+}
+
+.special3-1 {
+    padding: 0;
+}
+
+.special4 {
+    display: inline-block;
+    margin: 0;
+    width: 65%;
+}
+
+.alignGauche {
+    text-align: left;
+}
+
+.special4-1 {
+    width: 15%;
+    margin-left: -10px;
+}
+
+.special5 {
+    margin-top: 50px;
+}
+
+.alignTitre {
+    text-align: left;
+    margin-left: 135px;
+}
+
+.heightEncadrement {
+    height: 40px;
+}
+
+.heightEncadrement2 {
+    height: 200px;
+}
+
+.specialButton {
+    width: 200px;
+    display: block;
+}
+
+.specialButton2 {
+    width: 300px;
+    margin-left: 65%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buttonDiv {
+    text-align: left;
+    margin-left: 130px;
+}
+
+.espace {
+    margin-bottom: 20px;
+}
+
+.pointer {
+    cursor: pointer;
+}
